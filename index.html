@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Projeto X-Men</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/scc/reset.css">
+        <link rel="stylesheet" href="./src/scc/estilos.css">
+        <link rel="stylesheet" href="./src/scc/responsivo.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img src="./src/imagens/logo.png" alt="logo x-mem">
+        </header>
+
+        <main class="selecao-de-personagens">
+            <section class="personagens">
+                <h1 class="titulo">selecione um personagem</h1>
+                <ul class="lista-de-personagens">
+                    <li class="personagem selecionado" id="sr-josé" data-name = "Sr. José" data-description = "Sr. José é um grande pescador, campeão de vários campeonatos de pesca e torneios regionais e está sempre em busca de desafios.">
+                        <img src="./src/imagens/card-sr-José.jpg" alt="Personagem Ciclope"/>
+                    </li>
+                    
+                    <li class="personagem" id="margarete" data-name = "Margarete" data-description = "Margarete apredeu a pescar com sua mãe, logo se apaixonou pela profissão e hoje é respeitada por muitos por seus títulos de campeã de pesca.">
+                        <img src="./src/imagens/card-margarete.jpg" alt="Personagem Jean Grey"/>
+                    </li>
+                    
+                    <li class="personagem" id="Jorge" data-name = "Jorge" data-description = "Ele adora suas botas coloridas, segundo Jorge, elas atraem peixes maiores, verdade ou não, Jorge tem expêriencia em pescar peixes grandes.">
+                        <img src="./src/imagens/card-jorge.jpg" alt="Personagem Lince Negra"/>
+                    </li>
+
+                    <li class="personagem" id="bob" data-name = "Bob Poli" data-description = "Bob Poli é um robô criado por um cientista com o objetivo de coletar dados da vida aquática e testar sua capacidade de se tornar um pescador (Bob adora peixes dourados).">
+                        <img src="./src/imagens/card-bob.jpg" alt="Personagem Magneto"/>
+                    </li>
+
+                    <li class="personagem" id="flora" data-name = "Flora" data-description = "Flora é uma pescadora forte e ágil, capaz de pescar até os peixes mais vorazes.">
+                        <img src="./src/imagens/card-flora.jpg" alt="Personagem Noturno"/>
+                    </li>
+
+                    <li class="personagem" id="gersinho" data-name = "Gersinho" data-description = "Gersinho e seu companheiro Ugui pescam juntos a anos. Em quanto gersinho pesca, Ugui canta melodias e até mesmo o avisa de perigos a espreita. São a dupla perfeita.">
+                        <img src="./src/imagens/card-gersinho.jpg" alt="Personagem Tempestade"/>
+                    </li>
+
+                    <li class="personagem" id="marcelao" data-name = "Marcelão" data-description = "Marcelão é conhecido como melhor jogador de redes e claro ele é muito vaidoso com seus cabelos longos e sedosos.">
+                        <img src="./src/imagens/card-marcelao.jpg" alt="Personagem Vampira"/>
+                    </li>
+
+                    <li class="personagem" id="paulin" data-name = "Paulin Quebra Vara" data-description = "Paulin ganhou o apelido Quebra Vara e não foi atoa, ele bateu o recorde por pescar a maior tilápia do mundo, mas sua vara... foi de arrasta para cima.">
+                        <img src="./src/imagens/card-paulin.jpg" alt="Personagem wolverine"/>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section class="personagem-selecionado">
+                <img class="personagem-grande" src="./src/imagens/card-sr-José.png" alt="Personagem Selecionado" />
+                <div class="informacoes-personagem">
+                    <h2 class="nome-personagem" id="nome-personagem">Sr. José</h2>
+                    <p class="descricao-personagem" id="descricao-personagem">Sr. José é um grande pescador, campeão de vários com campeonatos de pesca e torneios regionais e está sempre em busca de desafios.</p>
+            </section>
+        </main>
+        <script src="./src/js/index.js"></script>
+    </body>
+
+</html>
